@@ -3,6 +3,7 @@ package conditionalstatements;
 public class WeekDays {
 
 	public static void main(String[] args) {
+//		Important Note: Switch not compare the values using the data type as float, double and boolean
 		int week_day = 2;
 		
 		switch (week_day) {
