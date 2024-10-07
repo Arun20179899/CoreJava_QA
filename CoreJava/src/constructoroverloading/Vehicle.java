@@ -37,11 +37,14 @@ public class Vehicle {
 	Vehicle() {
 		System.out.println("Intializing empty constructor");
 	}
-	// below is only uses when all the parameters are explicitly difine if not it is
+	// below is only uses when all the parameters are explicitly define if not it is
 	// printed default value
 	/*
-	 * void todisplay() { System.out.println(this.brand);
-	 * System.out.println(this.fuel); System.out.println(this.cost); }
+	 void todisplay() { 
+	 System.out.println(this.brand);
+	 System.out.println(this.fuel); 
+	 System.out.println(this.cost); 
+	 }
 	 */
 
 }
