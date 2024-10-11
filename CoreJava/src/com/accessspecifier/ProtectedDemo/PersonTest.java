@@ -1,4 +1,4 @@
-package accessspecifier.com.ProtectedDemo;
+package com.accessspecifier.ProtectedDemo;
 
 public class PersonTest {
 	// access protected properties in the another class but same package

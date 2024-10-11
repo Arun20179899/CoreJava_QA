@@ -1,6 +1,6 @@
-package accessspecifier.org.ProtectedDemo;
+package org.accessspecifier.ProtectedDemo;
 
-import accessspecifier.com.ProtectedDemo.PersonTest;
+import com.accessspecifier.ProtectedDemo.PersonTest;
 
 //The protected members are inherited by the child classes and can access them as its own members. 
 //But we can’t access these members using the reference of the parent class. 

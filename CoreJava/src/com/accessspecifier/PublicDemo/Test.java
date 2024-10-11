@@ -1,4 +1,4 @@
-package accessspecifier.com.PublicDemo;
+package com.accessspecifier.PublicDemo;
 
 public class Test {
 	public static void main(String[] args) {

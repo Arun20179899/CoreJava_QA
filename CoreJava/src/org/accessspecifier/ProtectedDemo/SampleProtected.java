@@ -1,6 +1,6 @@
-package accessspecifier.org.ProtectedDemo;
+package org.accessspecifier.ProtectedDemo;
 
-import accessspecifier.com.ProtectedDemo.Person;
+import com.accessspecifier.ProtectedDemo.Person;
 
 public class SampleProtected extends Person {
 	// if you access parent protected constructor through child class

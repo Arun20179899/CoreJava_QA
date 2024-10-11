@@ -1,4 +1,4 @@
-package accessspecifier.com.ProtectedDemo;
+package com.accessspecifier.ProtectedDemo;
 
 public class Person { // we can create a outer class as protected but we can make use as inner class
 	// like below is the example

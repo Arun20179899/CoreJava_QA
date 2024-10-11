@@ -1,4 +1,4 @@
-package accessspecifier.com.PublicDemo;
+package com.accessspecifier.PublicDemo;
 
 // Accessing the public class in same class
 public class Demo {

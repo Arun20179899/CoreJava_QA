@@ -1,8 +1,7 @@
-package accessspecifier.org.PublicDemo;
+package org.accessspecifier.PublicDemo;
 
-import accessspecifier.com.PublicDemo.Demo;
-import accessspecifier.com.PublicDemo.Test;
-//Access in another class in another package
+import com.accessspecifier.PublicDemo.Demo;
+import com.accessspecifier.PublicDemo.Test;
 
 public class Sample {
 	public static void main(String[] args) {
