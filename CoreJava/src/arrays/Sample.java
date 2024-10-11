@@ -1,30 +1,25 @@
 package arrays;
 
-public class Sample {
-	public static void main(String[] args) {
-		int[] arr = { 10, 45, 56, 10, 45, 56, 78, 45, 10, 20, 56, 64, 45, 20 };
-		arr[10] = 0;
-		arr[45] = 0;
-		arr[56] = 0;
-		arr[78] = 0;
-		arr[20] = 0;
-		arr[64] = 0;
-		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] == 10) {
-				arr[10]++;
-			} else if (arr[i] == 45) {
-				arr[45]++;
+//Java program to count occurrences 
+//of an element
 
-			} else if (arr[i] == 56) {
-				arr[56]++;
-			} else if (arr[i] == 78) {
-				arr[78]++;
-			} else if (arr[i] == 20) {
-				arr[20]++;
-			} else if (arr[i] == 64) {
-				arr[64]++;
-
-			}
-		}
-	}
+class Sample
+{
+ // Returns number of times x occurs in arr[0..n-1]
+ static int countOccurrences(int [] arr, int n, int x)
+ {
+     int res = 0;
+     for (int i=0; i<n; i++)
+         if (x == arr[i]) 
+           res++;
+     return res;
+ }
+ 
+ public static void main(String args[])
+ {
+     int [] arr = {1, 2, 2, 2, 2, 3, 4, 7 ,8 ,8 };
+     int n = arr.length;
+     int x = 8;
+     System.out.println(countOccurrences(arr, n, x));
+ }
 }
