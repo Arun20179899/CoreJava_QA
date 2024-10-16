@@ -8,6 +8,7 @@ public class InstagramUser {
 		ins.reels();
 		System.out.println("-------------------");
 		ins.call();
+		
 	}
 
 }
