@@ -17,7 +17,7 @@ public class Car {
 			System.out.print(i + "\t");
 			System.out.println(lg[i] + "\t");
 		}
-		System.out.println("eneter the element to find out the no of occurnace");
+		System.out.println("Enter the element to find out the no of occurnace");
 		long element = scan.nextInt();
 		for (int i = 0; i <= lg.length - 1; i++) {
 			if (element == lg[i]) {
@@ -25,6 +25,7 @@ public class Car {
 			}
 		}
 		System.out.println(count);
+		scan.close();
 
 	}
 }
